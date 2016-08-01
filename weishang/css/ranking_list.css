@@ -1,0 +1,125 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.rank-box{
+    width: 448px;
+    margin: 0 auto;
+}
+.rank-box .card-box{
+    background-image: url(../images/ranking_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center; 
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.rank-box .card-box .title-name{
+    color: #fff;
+    font-size: 16px;
+}
+.rank-box .card-box .btn-box{
+	margin-top: 25px;
+}
+.rank-box .card-box .btn-box button{
+	background-image: url(../images/btn2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: none;
+	width: 100%;
+	height: 50px;
+	background-color:transparent; 
+	color: #860000;
+    font-size: 18px;
+}
+.rank-box .card-box .return-box{
+    margin-top: 15px;
+}
+.rank-box .card-box .return-box a{
+    color: #e7cf4c;
+    text-decoration: underline;
+    font-size: 17px;
+}
+.rank-box .card-box .ranking-box{
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+.rank-box .card-box .ranking-box .ranking-title{
+	color: #fff;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: #310000;
+    height: 38px;
+    line-height: 36px;
+    margin-bottom: 0px;
+
+}
+.rank-box .card-box .ranking-box .ranking-list{
+	color: #fff;
+}
+.rank-box .card-box .ranking-box .ranking-list tbody>tr{
+	background-color: #310000;
+	opacity: 0.8;
+}
+.rank-box .card-box .ranking-box .ranking-list tbody>tr>td{
+	color: #fff;
+	border:none;
+}
+.rank-box .card-box .ranking-box .ranking-list .top-img{
+    width: 25px;
+    margin-top: 8px;
+}
+.rank-box .card-box .ranking-box .ranking-list .people-img{
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.rank-box .card-box .ranking-box .ranking-list .user-box{
+    margin-left: 50px;
+}
+.rank-box .card-box .ranking-box .ranking-list .user-box .user-name{
+    margin-bottom: 0px;
+}
+.rank-box .card-box .ranking-box .ranking-list .user-box .progress{
+    background-color: #e7cf4c;
+    border-radius: 11px;
+    height: 11px;
+    border: 1px solid #905c45;
+
+}
+.rank-box .card-box .ranking-box .ranking-list .user-box .progress-bar{
+    background-color: #a42424;
+}
+.rank-box .card-box .ranking-box .ranking-list .ticket-num{
+    padding-top: 12px;
+}
+@media (max-width: 425px) {/*超小屏幕设备 手机*/
+    .rank-box {
+        width: 425px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 321px) and (max-width: 375px) {/*超小屏幕设备 手机*/
+    .rank-box {
+        width: 375px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 320px) {
+    .rank-box {
+        width: 320px;
+        margin: 0 auto;
+    }
+}

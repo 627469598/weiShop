@@ -1,0 +1,184 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.flop-box{
+    width: 448px;
+    margin: 0 auto;
+}
+.flop-box .card-box{
+    background-image: url(../images/flop_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center; 
+    padding-top: 215px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.flop-box .card-box .success-box{
+
+}
+.flop-box .card-box .success-box .success-img{
+	width: 70px;
+}
+.flop-box .card-box .success-box .success-send{
+	color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.flop-box .card-box .success-box .success-change{
+	color: #fff87b;
+    font-size: 18px;
+    font-weight: 600;
+}
+.flop-box .card-box .code-box{
+	border: 1px solid #fff;
+    height: 346px;
+    position: relative;
+    margin-top: 30px;
+}
+.flop-box .card-box .code-box .code-top{
+	position: absolute;
+    top: -19px;
+    left: 26%;
+    width: 200px;
+    height: 40px;
+    line-height: 38px;
+    color: #fff;
+    background-image: url(../images/flop_red.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.flop-box .card-box .code-box .code-img{
+	width: 290px;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+}
+.flop-box .card-box .code-box .code-bottom{
+	position: absolute;
+    bottom: -21px;
+    left: 26%;
+	width: 200px;
+    height: 40px;
+    line-height: 38px;
+    color: #fff;
+    background-image: url(../images/flop_red.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.flop-box .card-box .btn-box{
+	margin-top: 30px;
+}
+.flop-box .card-box .btn-box button{
+	background-image: url(../images/btn2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: none;
+	width: 100%;
+	height: 50px;
+	background-color:transparent; 
+	color: #860000;
+    font-size: 18px;
+}
+.flop-box .card-box .ranking-box{
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+.flop-box .card-box .ranking-box .ranking-title{
+	color: #fff;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: #310000;
+    height: 38px;
+    line-height: 36px;
+    margin-bottom: 0px;
+
+}
+.flop-box .card-box .ranking-box .ranking-list{
+	color: #fff;
+}
+.flop-box .card-box .ranking-box .ranking-list tbody>tr{
+	background-color: #310000;
+	opacity: 0.8;
+}
+.flop-box .card-box .ranking-box .ranking-list tbody>tr>td{
+	color: #fff;
+	border:none;
+}
+.flop-box .card-box .ranking-box .ranking-list .top-img{
+    width: 25px;
+    margin-top: 8px;
+}
+.flop-box .card-box .ranking-box .ranking-list .people-img{
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.flop-box .card-box .ranking-box .ranking-list .user-box{
+    margin-left: 50px;
+}
+.flop-box .card-box .ranking-box .ranking-list .user-box .user-name{
+    margin-bottom: 0px;
+}
+.flop-box .card-box .ranking-box .ranking-list .user-box .progress{
+    background-color: #e7cf4c;
+    border-radius: 11px;
+    height: 11px;
+    border: 1px solid #905c45;
+
+}
+.flop-box .card-box .ranking-box .ranking-list .user-box .progress-bar{
+    background-color: #a42424;
+}
+.flop-box .card-box .ranking-box .ranking-list .ticket-num{
+    padding-top: 12px;
+}
+@media (max-width: 425px) {/*超小屏幕设备 手机*/
+    .flop-box {
+        width: 425px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 321px) and (max-width: 375px) {/*超小屏幕设备 手机*/
+    .flop-box {
+        width: 375px;
+        margin: 0 auto;
+    }
+    .flop-box .card-box .code-box .code-top {
+        left: 23%;
+    }
+    .flop-box .card-box .code-box .code-bottom {
+        left: 23%;
+    }
+}
+@media (max-width: 320px) {
+    .flop-box {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .flop-box .card-box .code-box{
+        height: 294px;
+    }
+    .flop-box .card-box .code-box .code-top{
+        left: 12%;
+    }
+    .flop-box .card-box .code-box .code-img{
+        width: 243px;
+    }
+    .flop-box .card-box .code-box .code-bottom{
+        left: 12%;
+    }
+}

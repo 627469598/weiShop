@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" charset="UTF-8">
+	<meta name="viewport" id="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!--link rel="stylesheet" href="../css/bootstrap.min.css"-->
+	<link rel="stylesheet" href="../css/rush_tickets.css">
+	<title>投票页面</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="center-box">
+                <div class="ticket-box">
+                    <div class="brand-box">
+                        <button id="wechat_business" class="btn btn-default btn-style" type="text">年度人气微商品牌</button>
+                        <div><img class="img-2" src="../images/circle.png"></div>
+                    </div>
+                    <div class="team-box">
+                        <button class="btn btn-default btn-style" type="text">年度明星微商团队</button>
+                        <div><img class="img-2" src="../images/circle.png"></div>
+                    </div>
+                    <div class="network-box">
+                        <button class="btn btn-default btn-style" type="text">年度风云微网红</button>
+                        <div><img class="img-2" src="../images/circle.png"></div>
+                    </div>
+                    <div class="mechanism-box">
+                        <button class="btn btn-default btn-style" type="text">年度十大平台/机构</button>
+                        <div><img class="img-2" src="../images/circle.png"></div>
+                    </div>
+                    <div class="btn-sure">
+                        <button class="btn btn-default" type="text">我要参选</button>
+                    </div>
+                    <div class="font-box"></div>
+                    <div class="content-box">
+                        <p>1.各奖项均由网友投票用专家评审团意见共同产生（网友投票占70%专家意见占30%）；</p>
+                        <p>2.投票无需注册，投票结束后填写电话号码，即可翻牌召唤万人演唱会门票；</p>
+                        <p>3.本次评选属于公开投票每个ID每天限投一次，可以选择一个或多个品牌投票，严禁恶意刷票，否则该ID的投票数均为无效。</p>
+                        <p>4.本次所评选出的奖项，将在8月30日在万人演唱会上颁发。</p>
+                        <p>5.投票时间，即日起至8月23日。</p>
+                        <p>《薇COCO薇》时尚杂志在法律范围内拥有本次活动的合法解释权。</p>
+                    </div>
+                    <div class="btn-index">
+                        <button class="btn btn-default return-index" type="text">返回主页</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</body>
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#wechat_business').on('click', function(){
+        location.href = 'wechat_business.html';
+    });
+    $('.return-index').on('click', function() {
+        location.href = 'index.html';
+    });
+});
+</script>
+</html>

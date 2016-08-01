@@ -1,0 +1,133 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.center-box{
+    width: 448px;
+    margin: 0 auto;
+}
+.ticket-box{
+    background-image: url(../images/tickets_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center; 
+    padding-top: 480px;
+}
+.ticket-box .btn-style{
+    background-image: url(../images/btn.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    height: 50px;
+    background-color:transparent; 
+    color: #860000;
+    font-size: 18px;
+    float: left;
+    width: 80%;
+}
+.ticket-box .brand-box{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.ticket-box .img-2{
+    width: 50px;
+}
+.ticket-box .team-box{
+    margin-top: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.ticket-box .network-box{
+    margin-top: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.ticket-box .mechanism-box{
+    margin-top: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.ticket-box .btn-sure{
+    
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ticket-box .btn-sure button{
+    background-image: url(../images/btn2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 90%;
+    height: 50px;
+    background-color:transparent;
+    border: none;
+    color: #860000;
+    font-size: 20px;
+}
+.ticket-box .font-box{
+    background-image: url(../images/tickets_font.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 90%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.ticket-box .content-box{
+    background-color: #000;
+    opacity: 0.5;
+    width: 85%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #fff;
+    padding: 10px 10px;
+}
+.ticket-box .content-box>p{
+    line-height: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.ticket-box .btn-index{  
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+.ticket-box .btn-index button{
+    background-image: url(../images/btn2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 90%;
+    height: 50px;
+    background-color:transparent;
+    border: none;
+    color: #860000;
+    font-size: 20px;
+}
+@media (max-width: 425px) {
+    .center-box{
+        width: 100%;
+    }
+    .t
+}
+@media (min-width: 321px) and (max-width: 375px) {/*超小屏幕设备 手机*/
+    .center-box{
+        width: 100%;
+    }
+}
+@media (max-width: 320px) {
+}

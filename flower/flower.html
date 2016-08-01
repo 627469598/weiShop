@@ -1,0 +1,305 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+		body{
+			background-color: #000;
+		}
+		.flower-box{
+			width: 322px;
+			height: 525px;
+			background-color: #fff;
+			left: 30%;
+			background-image: url('image/background.png');
+			background-position: 50% 50%;
+			position: relative;
+    		overflow: hidden;
+		}
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		.flower-box .background-cherry{
+			width: 224px;
+    		height: 224px;
+    		position: relative;
+		    left: 49px;
+		    top: 72px;
+		    -webkit-animation: circlemove 4s; /* Chrome, Safari, Opera */
+    		animation: circlemove 4s;
+		}
+		.flower-box .circle-img{
+			width: 214px;
+    		height: 214px;
+			position: absolute;
+		    left: 54px;
+		    top: 77px;
+		    -webkit-animation: circlemove 4s; /* Chrome, Safari, Opera */
+    		animation: circlemove 4s;
+		}
+		@-webkit-keyframes circlemove{
+			0% {-webkit-transform:scale(0);}
+			100% {-webkit-transform:scale();}
+		}
+		@keyframes circlemove{
+			0% {transform:scale(0);}
+			100% {transform:scale();}
+		}
+		.flower-box .left-cherry{
+			width: 161px;
+			height: 309px;
+			float: left;
+			//z-index: 4;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			-webkit-animation: leftmove 3s; /* Chrome, Safari, Opera */
+    		animation: leftmove 3s;
+		}
+		@-webkit-keyframes leftmove{
+			0% {-webkit-transform: translateX(-161px);}
+			100% {-webkit-transform: translateX(0px);}
+		}
+		@keyframes leftmove{
+			0% {transform: translateX(-161px);}
+			100% {transform: translateX(0px);}
+		}
+		.flower-box .right-cherry{
+			width: 161px;
+			height: 309px;
+			float: right;
+			z-index: 4;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			-webkit-animation: rightmove 3s; /* Chrome, Safari, Opera */
+    		animation: rightmove 3s;
+		} 
+		@-webkit-keyframes rightmove{
+			0% {-webkit-transform: translateX(161px);}
+			100% {-webkit-transform: translateX(0px);}
+		}
+		@keyframes rightmove{
+			0% {transform: translateX(161px);}
+			100% {transform: translateX(0px);}
+		}
+		.flower-box .little-bird {
+			width: 306.5px;
+			height: 219.5px;
+			clear: both;
+			position: absolute;
+			left: 38px;
+			top: 110px;
+			-webkit-animation: birdtmove 4s; /* Chrome, Safari, Opera */
+    		animation: birdtmove 4s;
+		}
+		@-webkit-keyframes birdtmove{
+			0% {-webkit-transform: translateX(300px);}
+			100% {-webkit-transform: translateX(0px);}
+		}
+		@keyframes birdtmove{
+			0% {transform: translateX(300px);}
+			100% {transform: translateX(0px);}
+		}
+		.flower-box .circle-three{
+			width: 40px;
+		    height: 40px;
+		    position: absolute;
+		    left: 164px;
+		    top: 202px;
+		}
+		.flower-box .circle-two{
+			width: 36px;
+			height: 38px;
+			position: absolute;
+		    left: 113px;
+    		top: 121px;
+		}
+		.flower-box .circle-one{
+			width: 35px;
+			height: 38px;
+			position: absolute;
+		    left: 171px;
+    		top: 66px;
+		}
+		.flower-box .petal{
+			width: 205.5px;
+			height: 278.5px;
+			position: absolute;
+			left: 57px;
+   		 	top: 100px;
+		    -webkit-animation: petalmove 3s; /* Chrome, Safari, Opera */
+    		animation: petalmove 3s;
+		}
+		@-webkit-keyframes petalmove{
+			0% {-webkit-transform: scale(1.1,1.1);}
+			25% {-webkit-transform: none;}
+			50% {-webkit-transform: scale(1.1,1.1);}
+			100% {-webkit-transform: none}
+		}
+		@keyframes petalmove{
+			0% {transform:scale(1.1,1.1);}
+			25% {transform: none;}
+			50% {transform: scale(1.1,1.1);}
+			100% {transform: none;}
+		}		
+		.flower-box .flower1{
+			width: 28px;
+			height: 32px;
+			position: absolute;
+			left: 46px;
+    		top: 313px;
+		}
+		.flower-box .flower2{
+			width: 16px;
+			height: 17px;
+			position: absolute;
+			left: 19px;
+   		 	top: 373px;
+		}
+		.flower-box .garland{
+			width: 175px;
+			height: 147px;
+			position: absolute;
+			left: 81px;
+   		 	top: 329px;
+			-webkit-animation: garlandmove 1s 1 ; /* Chrome, Safari, Opera */
+    		animation: garlandmove 1s 1 ;
+		}
+		@-webkit-keyframes garlandmove{
+			0% {-webkit-transform: scale(1.8);}
+			100% {-webkit-transform: none}
+		}
+		@keyframes garlandmove{
+			0% {transform:scale(1.8);}
+			100% {transform: none;}
+		}	
+		.flower-box .text-one{
+			text-align: center;
+			margin-top: 142px;
+			font-size: 24px;
+		}
+		.flower-box .text-one span{
+			display: block;
+			width: 95px;
+			padding-left: 35%;
+		    white-space:nowrap;
+		    overflow:hidden;
+			-webkit-animation: type 3s steps(50, end);
+  			animation: type 3s steps(50, end);
+  		}
+		@-webkit-keyframes type{
+		    from { width: 0;}
+		}
+
+		@keyframes type{
+		    from { width: 0;}
+		}
+		.flower-box .text-two{
+			text-align: center;
+			margin-top: 5px;
+			font-size: 12px;
+		}
+		.flower-box .text-two span{
+			display: block;
+			width: 120px;
+			padding-left: 32%;
+		    white-space:nowrap;
+		    overflow:hidden;
+			-webkit-animation: type 3s steps(50, end) 3s;
+  			animation: type 3s steps(50, end) 3s;
+  		}
+		.flower-box .text-three{
+			text-align: center;
+			margin-top: 5px;
+			font-size: 12px;
+		}
+		.flower-box .text-three span{
+			display: block;
+			width: 144px;
+			padding-left: 28%;
+		    white-space:nowrap;
+		    overflow:hidden;
+			-webkit-animation: type 3s steps(50, end);
+  			animation: type 3s steps(50, end);
+  		}
+		.flower-box .bottom-one{
+			width: 161px;
+			height: 90px;
+			float: left;
+			-webkit-animation: bottommove 3s 1 ; /* Chrome, Safari, Opera */
+    		animation: bottommove 3s 1 ;
+		}
+		@-webkit-keyframes bottommove{
+			0% {-webkit-transform: translateY(90px);}
+			100% {-webkit-transform: translateY(0px);}
+		}
+		@keyframes bottommove{
+			0% {-webkit-transform: translateY(90px);}
+			100% {-webkit-transform: translateY(0px);}
+		}	
+		.flower-box .bottom-two{
+			width: 161px;
+			height: 90px;
+			float: right;
+			-webkit-animation: bottommove 3s 1 ; /* Chrome, Safari, Opera */
+    		animation: bottommove 3s 1 ;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="flower-box">
+			<div class="background-cherry">
+				<img src="image/house.png">
+			</div>
+			<div class="circle-img">
+				<img src="image/circle.png">
+			</div>
+			<div class="left-cherry">
+				<img src="image/left.png">
+			</div>
+			<div class="right-cherry">
+				<img src="image/right.png">
+			</div>
+			<div class="little-bird">
+				<img src="image/bird.png">
+			</div>
+			<div class="circle-three">
+				<img src="image/circle3.png">
+			</div>
+			<div class="circle-two">
+				<img src="image/circle2.png">
+			</div>
+			<div class="circle-one">
+				<img src="image/circle1.png">
+			</div>
+			<div class="petal">
+				<img src="image/petal.png">
+			</div>
+			<div class="flower1">
+				<img src="image/flower1.png">
+			</div>
+			<div class="flower2">
+				<img src="image/flower2.png">
+			</div>
+			<div class="garland">
+				<img src="image/garland.png">
+			</div>
+			<div class="text-one">
+				<span>日本印象</span>
+			</div>
+			<div class="text-two">
+				<span>最も美しい桜に出会い</span>
+			</div>
+			<div class="text-three">
+				<span>母亲节给妈妈不一样的礼物</span>
+			</div>
+			<div class="bottom-two">
+				<img src="image/bottom2.png">
+			</div>
+			<div class="bottom-one">
+				<img src="image/bottom1.png">
+			</div>
+		</div>
+	</body>
+</html>

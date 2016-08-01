@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" charset="UTF-8">
+	<meta name="viewport" id="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+	<link rel="stylesheet" href="../Swiper-3.3.1/dist/css/swiper.min.css">
+	<link rel="stylesheet" href="../css/animate.min.css">
+	<link rel="stylesheet" href="../css/index23.css">
+	<title>微商首页</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="index-box">
+                    <div class="index-img">
+                        <div>
+                            <img class="img-1" src="../images/index_btn1.png">
+                            <img class="img-2" src="../images/index_btn2.png">
+                        </div>
+                        <div>
+                            <img class="img-1" src="../images/index_btn3.png">
+                            <img class="img-2" src="../images/index_btn4.png">
+                        </div>
+                    </div>
+                    <div class="index-buttom">
+                        <div>
+                            <button id="play-card" class="btn-1">1</button>
+                            <button id="vote-door">1</button>
+                        </div>
+                        <div>
+                            <button id="weipihui" class="btn-1">1</button>
+                            <button id="highest-end">1</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</body>
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script src="../Swiper-3.3.1/dist/js/swiper.min.js"></script>
+<script src="../js/swiper.animate1.0.2.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+    autoHeight: true, //高度随内容变化
+    direction: 'vertical',
+    mousewheelControl : true,
+    loop : true,
+    onInit: function(swiper) {
+    	//swiperAnimateCache(swiper);
+    	//swiperAnimate(swiper);
+    },
+    onSlideChangeEnd: function(swiper) {
+    	//swiperAnimate(swiper);
+        //alert(1)
+    }
+});
+$(document).ready(function() {
+    $('#play-card').on('click', function() {
+        location.href = 'rush_tickets.html';
+    });
+    $('#vote-door').on('click', function() {
+        alert(2);
+    });
+    $('#weipihui').on('click', function() {
+        alert(3);
+    });
+    $('#highest-end').on('click', function() {
+        alert(4);
+    });
+});
+</script>
+</html>

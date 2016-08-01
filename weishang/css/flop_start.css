@@ -1,0 +1,306 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.flop-box{
+    width: 448px;
+    margin: 0 auto;
+}
+.flop-box .card-box{
+    background-image: url(../images/start_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center; 
+    padding-top: 300px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.flop-box .card-box .user-box{
+	margin-bottom: 20px;
+}
+.flop-box .card-box .user-box .img-box{
+	width: 18%;
+}
+.flop-box .card-box .user-box .img-box .user-img{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-top: 5px;
+    width: 85%;
+    margin-bottom: 2px;
+}
+.flop-box .card-box .user-box .img-box p{
+	color: #fff;
+	font-size: 12px;
+}
+.flop-box .card-box .user-box .user-introduce{
+	background-image: url(../images/start_text.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 82%;
+    height: 80px;
+}
+.flop-box .card-box .user-box .user-introduce p{
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.flop-box .card-box .game-box{
+}
+.flop-box .card-box .game-box .game-title{
+	color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.flop-box .card-box .game-box .game-title span{
+	color: #ff6d34;
+}
+.flop-box .card-box .game-box .game-list{
+	background-image: url(../images/start_box.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 17px;
+}
+.flop-box .card-box .game-box .game-list .flop-game{
+
+}
+.flop-box .card-box .game-box .game-list .flop-game .game-img{
+	width: 33.3%;
+	height: 65px;
+	float: left;
+	border-right: 1px solid #ff6d34;
+}
+.flop-box .card-box .game-box .game-list .flop-game .game-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	border-bottom: 3px solid #eac943;
+}
+.flop-box .card-box .btn-box{
+	margin-top: 30px;
+}
+.flop-box .card-box .btn-box button{
+	background-image: url(../images/btn2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: none;
+	width: 100%;
+	height: 50px;
+	background-color:transparent; 
+	color: #860000;
+    font-size: 18px;
+}
+.flop-box .card-box .partner-box{
+	color: #fff;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.flop-box .card-box .partner-box p{
+
+}
+.flop-box .card-box .partner-box .partner-list{
+	list-style: none;
+	padding: 0px;
+	margin-top: 18px;
+}
+.flop-box .card-box .partner-box .partner-list li{
+	float: left;
+	margin-right: 8px;
+	margin-top: 5px;
+}
+.flop-box .card-box .partner-box .partner-list img{
+	width: 48px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+.flop-box .card-box .start-font1{
+	background-image: url(../images/start_font1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 40px;
+	margin-top: 20px;
+    margin-bottom: 15px;
+}
+.flop-box .card-box .winner-box{
+
+}
+
+.flop-box .card-box .winner-box tbody>tr{
+	background-color: #310000;
+	opacity: 0.8;
+	font-size: 13px;
+	text-align: left;
+}
+.flop-box .card-box .winner-box tbody>tr>td{
+	color: #fff;
+	border:none;
+}
+.flop-box .card-box .start-font2{
+	background-image: url(../images/start_font2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 40px;
+	margin-top: 35px;
+    margin-bottom: 15px;
+}
+.flop-box .card-box .rule-box{
+	background-color: #310000;
+    opacity: 0.8;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #fff;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+/* thand_join.html */
+.flop-box .card-box .user-box .yellow-introduce{
+	background-image: url(../images/start_text2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 82%;
+    height: 80px;
+}
+.flop-box .card-box .user-box .yellow-introduce p{
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    color: #880000;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* draw_ticket.html */
+.flop-box .card-box .user-box .ticket-introduce{
+	background-image: url(../images/start_text2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 82%;
+    height: 80px;
+}
+.flop-box .card-box .user-box .ticket-introduce p{
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    color: #880000;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+}
+.submit-box{
+
+}
+.submit-box .ranking-title{
+	color: #fff;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: #310000;
+    height: 38px;
+    line-height: 36px;
+    margin-bottom: 0px;
+}
+.submit-box .submit-list{
+	background-color: #310000;
+	opacity: 0.8;
+	color: #fff;
+}
+.submit-box .submit-list .input-box{
+	padding-top: 15px;
+}
+.submit-box .submit-list .input-box span{
+	margin-right: 10px;
+}
+.submit-box .submit-list .input-box .phone-num{
+	margin-left: -27px;
+}
+.submit-box .submit-list button{
+	width: 100px;
+    height: 32px;
+    border-radius: 13px;
+    border: none;
+    background-color: #880000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+/* draw_money.html */
+.flop-box .money-box{
+	padding-top: 330px;
+}
+.flop-box .card-box .user-box .money-introduce{
+	background-image: url(../images/start_text2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 82%;
+    height: 80px;
+}
+.flop-box .card-box .user-box .money-introduce p{
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    color: #880000;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+.flop-box .card-box .code-box{
+	background-color: #310000;
+    opacity: 0.8;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+}
+.flop-box .card-box .code-box img{
+	width: 100%;
+}
+@media (max-width: 425px) {/*超小屏幕设备 手机*/
+    .flop-box {
+        width: 100%;
+    }
+}
+@media (min-width: 321px) and (max-width: 375px) {/*超小屏幕设备 手机*/
+    .flop-box {
+        width: 100%;
+    }
+    .flop-box .card-box .user-box .money-introduce p {
+	    font-size: 14px;
+	}
+}
+@media (max-width: 320px) {
+    .flop-box {
+        width: 100%;
+    }
+    .flop-box .card-box {
+	    padding-top: 330px;
+	}
+	.flop-box .card-box .user-box .img-box .user-img {
+	    margin-top: 9px;
+    	width: 98%;
+	}
+	.flop-box .card-box .user-box .ticket-introduce p{
+	    font-size: 14px;
+	}
+	.flop-box .card-box .user-box .money-introduce p {
+	    width: 82%;
+	    margin-top: 5px;
+	    font-size: 12px;
+	}
+	.flop-box .money-box{
+		padding-top: 350px;
+	}
+}

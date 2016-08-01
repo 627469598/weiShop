@@ -1,0 +1,145 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #ccc;
+    width: 100%;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/*首页*/
+.index-box{
+    background-image: url(../images/index_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.index-box .index-img{
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+}
+.index-box .index-img img{
+    width: 171px;
+    height: 100%;
+}
+.img-1{
+    padding-right: 15px;
+}
+.img-2{
+    padding-left: 15px;
+}
+.index-box .index-buttom{
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+    opacity: 0;
+}
+.index-box .index-buttom button{
+    width: 160px;
+    height: 66px;
+    border-radius: 9px;
+}
+.btn-1{
+    margin-right: 42px;
+    margin-bottom: 13px;
+}
+@media (max-width: 425px) {
+    .index-box{
+        height: 602px;
+    }
+    .index-box .index-img img{
+        width: 138px;
+        height: 52px;
+    }
+    .img-1{
+        padding-right: 5px;
+    }
+    .img-2{
+        padding-left: 5px;
+    }
+    .index-box .index-buttom{
+        bottom: 75px;
+    }
+    .index-box .index-buttom button{
+        width: 128px;
+        height: 46px;
+    }
+    .btn-1{
+        margin-right: 19px;
+        margin-bottom: 9px;
+    }
+}
+@media (min-width: 424px) and (max-width: 767px) {/*超小屏幕设备 手机*/
+    .index-box{
+        width: 450px;
+        height: 602px;
+    }
+    .index-box .index-img{
+        bottom: 60px;
+    }
+    .index-box .index-img img{
+        width: 142px;
+        height: 57px;
+    }
+    .index-box .index-buttom{
+        bottom: 63px;
+    }
+    .index-box .index-buttom button{
+        width: 132px;
+        height: 53px;
+    }
+    .btn-1{
+        margin-right: 19px;
+        margin-bottom: 7px;
+    }
+}
+@media (min-width: 766px) and (max-width: 991px) { /*小屏幕设备 平板*/
+    .index-box{
+        width: 450px;
+        height: 760px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {/*中等屏幕设备 桌面*/
+    .index-box{
+        width: 450px;
+        height: 760px;
+    }
+}
+@media (min-width: 1200px){/*大屏幕设备 桌面*/
+    .index-box{
+        width: 450px;
+        height: 760px;
+    }
+}
+

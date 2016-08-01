@@ -1,0 +1,229 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.center-box{
+    width: 448px;
+    margin: 0 auto;
+}
+.center-box .wechat-box{
+    background-image: url(../images/wechat_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center; 
+}
+.center-box .menu-ul{
+    list-style: none;
+    width: 100%;
+    clear: both;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.center-box .menu-ul li{
+    float: left;
+    width: 25%;
+}
+.center-box .menu-ul img{
+   width: 100%;
+   height: 56px;
+}
+.search-box .form-group{
+    border-radius: 12px;
+    border: 1px solid #000;
+}
+.search-box .btn-add{
+    border-radius: 12px;
+    background-color: #fff45f;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #860000;
+}
+.search-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.search-box .form-group input{
+    border: none;
+    height: 36px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.search-box .form-group .input-group-addon{
+    background-color: #510000;
+    border: none;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.wechat-font{
+    background-image: url(../images/wechat_font.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 407px;
+    height: 117px;
+    margin: auto;
+}
+.list-box{
+    margin-top: 35px;
+}
+.brand-list{
+    margin-bottom: 20px;
+}
+.brand-box{
+    border: 1px solid #ddd;
+    height: 95px;
+    width: 30.9%;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.brand-box .brand-img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -32px;
+    left: 27px;
+}
+.brand-box .brand-name{
+    padding-top: 39px;
+    margin: 0;
+}
+.brand-box .brand-num{
+    margin: 0;
+    color: #333;
+}
+.brand-box .brand-num .red-font{
+    color: #a40000;
+    font-size: 16px;
+    width: 50%;
+    font-weight: 600;
+}
+.brand-box .brand-num .block-font{
+    color: #333;
+    width: 50%;
+}
+.brand-box .checked-img{
+    width: 30px;
+    position: absolute;
+    bottom: -3px;
+    right: -4px;
+}
+.brand-box .block-img{
+    width: 30px;
+    position: absolute;
+    bottom: -2px;
+    right: -3px;
+}
+.wechat_btn{
+    background-image: url(../images/wechat_btn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 400px;
+    height: 55px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 30px;
+}
+@media (max-width: 425px) {/*超小屏幕设备 手机*/
+    .center-box{
+        width: 100%;
+    }
+    .brand-box{
+        width: 29.9%;
+        margin-left: 6px;
+        margin-right: 7px;
+        margin-bottom: 25px;
+    }
+    .search-box .btn-add {
+        float: left;
+        margin-left: 38px;
+        height: 37px;
+    }
+    .brand-box .brand-img {
+        left: 26px;
+        width: 65px;
+        height: 65px;
+    }
+    .search-box .form-group {
+        margin-left: 160px;
+        width: 240px;
+    }
+}
+@media (min-width: 375px) and (max-width: 424px) {/*超小屏幕设备 手机*/
+    .center-box{
+        width: 100%;
+    }
+    .brand-box{
+        width: 28.9%;
+        margin-left: 7px;
+        margin-right: 8px;
+        margin-bottom: 25px;
+    }
+    .search-box .btn-add {
+        float: left;
+        margin-left: 38px;
+        height: 37px;
+    }
+    .brand-box .brand-img {
+        left: 18px;
+        width: 60px;
+        height: 60px;
+    }
+    .search-box .form-group {
+        margin-left: 160px;
+        width: 184px;
+    }
+    .wechat-font {
+        width: 350px;
+    }
+    .wechat_btn{
+        width: 359px;
+    }
+}
+@media (max-width: 374px) {/*超小屏幕设备 手机*/
+    .center-box{
+        width: 100%;
+    }
+    .brand-box{
+        width: 27.9%;
+        margin-left: 7px;
+        margin-right: 8px;
+        margin-bottom: 10px;
+    }
+    .search-box .btn-add {
+        float: left;
+        margin-left: 15px;
+        height: 37px;
+    }
+   .brand-box .brand-img {
+        left: 17px;
+        width: 45px;
+        height: 45px;
+        top: -22px;
+    }
+    .search-box .form-group {
+        margin-left: 122px;
+        width: 184px;
+    }
+    .wechat-font {
+        width: 308px;
+    }
+    .wechat_btn{
+        width: 309px;
+    }
+}
